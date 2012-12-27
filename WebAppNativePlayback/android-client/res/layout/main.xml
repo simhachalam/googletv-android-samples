@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_root_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment class="com.google.android.gtv.nativewebsample.fragments.WebViewFragment"
+            android:id="@+id/webview_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+   	
+</FrameLayout>

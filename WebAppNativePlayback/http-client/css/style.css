@@ -1,0 +1,252 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	width: 100%;
+	min-width: 600px;
+	height: 100%;
+	background-color: transparent;
+	color: #f1f1f1;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.left-panel {
+	display: block;
+	float: left;
+	width: 15.625%;
+	height: 100%;
+	background-color: #202020;
+	overflow: hidden;
+}
+
+.right-panel {
+	float: left;
+	width: 82.8125%;
+	height: 100%;
+	margin-bottom: 1%;
+	margin-left: 1.5625%;
+	overflow: hidden;
+}
+
+.acme-logo-container {
+	width: 100%;
+	margin: 12% 0 0 0;
+}
+
+.acme-logo-container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side-menu-container {
+	margin-top: 12%;
+}
+
+.video-grid {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.grid-item-wrapper {
+	width: 29%;
+	float: left;
+	margin: 1% 2% 1% 2%;
+	overflow: hidden;
+}
+
+/* Width determined by thumbnail */
+.grid-item {
+	max-width: 192px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #202020;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.grid-item-active {
+	background-color: #16BEDC;
+}
+
+.grid-item img {
+	border-radius: 14px;
+}
+
+.grid-item .title {
+	line-height: 120%;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.menu-option {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 8% 12% 8% 12%;
+	line-height: 52px;
+	border-radius: 30px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#252525), to(#0C0C0C));
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu-option-focused {
+	background: -webkit-gradient(linear, left top, left bottom, from(#16BEDC), to(#091213));
+}
+
+.menu-option-selected {
+	background: -webkit-gradient(linear, left top, left bottom, from(#26CEEC), to(#095E6C));
+}
+
+.menu-option-focused.menu-option-selected {
+	background: -webkit-gradient(linear, left top, left bottom, from(#26CEEC), to(#16BEDC));
+}
+
+#video-container {
+	width: 100%;
+	height: 100%;
+}
+
+#bottomContainer {
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+}
+
+#controlsWrapper {
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#controls-container {
+	width: 90%;
+	height: 60%;
+	position:absolute;
+	top: 50%;
+	margin-top: -30%;
+}
+
+.video-command-container {
+	height: 100%;
+	width: 6%;
+	float: left;
+	padding-right: 1%;
+	display: table;
+	text-align: center;
+	background-color: transparent;
+}
+
+.video-command {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(91,91,91);
+	border-radius: 5px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.video-command-focused {
+	background-color: rgb(33,190,219);
+}
+
+.video-command-selected {
+	background-color: rgb(241,241,241);
+}
+
+.video-command img {
+	height: 50%;
+	max-height: 18px;
+	max-width: 19px;
+}
+
+.progress-bar {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.progress-time {
+	width: 10%;
+	max-width: 10%;
+	height: 100%;
+	float: left;
+	display: table;
+	text-align: center;
+	overflow: hidden;
+	table-layout: fixed;
+}
+
+.elapsed-time {
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.duration-time {
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.progressbar-fs {
+	width: 80%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.progress-bar-back {
+	position: absolute;
+	top: 50%;
+	margin-top: -15%;
+	width: 100%;
+	height: 30%;
+	background: #404040;
+	border-radius: 5px;
+}
+
+.progress-time-fs {
+	font-size: 0.8em;
+	background: #21bedb;
+	height: 100%;
+	margin: 0;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.load-time-fs {
+	font-size: 0.8em;
+	background: #FFFFFF;
+	height: 100%;
+	margin: 0;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
